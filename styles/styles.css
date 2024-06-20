@@ -21,7 +21,7 @@ main img {
 }
 
 p {
-    padding: 0px;
+    padding: 10px;
 }
 
 main {
@@ -42,6 +42,8 @@ aside img {
     width: 200px;
     height: auto;
 }
+
+p { padding: 0;}
 
 footer {
     margin-top: 15px;
