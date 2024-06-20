@@ -1,20 +1,20 @@
 nav {
-    background-color: steelblue;
+    background-color: #1f514c;
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: #ecf9f9;
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: steelblue;
+    color: #1f514c;
 }
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid #1f514c;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -30,10 +30,12 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid #1f514c(0, 0, 0, 0.2);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    /* background-color: #eee; */
+    background-color: #c1fbfb;
+    /* color: #333; */
+    color: #1f514c; 
     text-align: center;
 }
 
@@ -46,10 +48,11 @@ main img {
     width: 150px;
     height: auto;
 }
+
 p { padding: 0;}
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #1f514c;
     text-align: center;
 }
