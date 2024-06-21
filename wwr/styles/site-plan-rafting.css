@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
-    --primary-color: #064e8d;
-    --secondary-color: #e68f26;
-    --accent1-color: #fff;
-    --accent2-color: #000000;
+    --primary-color: #222b1a;
+    --secondary-color: #dac3a4;
+    --accent1-color: #DCDFE5;
+    --accent2-color: #6F7365;
 
     --heading-font: 'Open Sans', serif;
     --paragraph-font: 'Playfair Display', serif;
 
-    --nav-background-color: #ffffff;
-    --nav-link-color: #064e8d;
-    --nav-hover-link-color: #ffffff;
-    --nav-hover-background-color: #253031;
+    --nav-background-color: #FDFBFC;
+    --nav-link-color: #6F7365;
+    --nav-hover-link-color: #FDFBFC;
+    --nav-hover-background-color: #222b1a;
 }
 
 body {
