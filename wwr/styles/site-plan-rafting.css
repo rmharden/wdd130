@@ -1,4 +1,4 @@
-@import url('https//fonts.googleleapis.com/css?family=Josefin+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
     --primary-color: #99DDC8;
@@ -6,8 +6,8 @@
     --accent1-color: #659b5e;
     --accent2-color: #556f44;
 
-    --heading-font: 'Josefin Sans', serif;
-    --paragraph-font: Roboto, serif;
+    --heading-font: 'Open Sans', serif;
+    --paragraph-font: 'Playfair Display', serif;
 
     --nav-background-color: #fff;
     --nav_link-color: #064e8d;
