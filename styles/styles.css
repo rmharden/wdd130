@@ -26,6 +26,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -47,6 +48,12 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
 p { padding: 0;}
 
 footer {
@@ -59,7 +66,7 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0,0,0.1);
     padding: 1rem;
-    background-color: #ddd;
+    background-color: #eee;
     color: #000;
 }
 aside h2 {
