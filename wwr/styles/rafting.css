@@ -3,16 +3,16 @@
 :root {
     --primary-color: #222b1a;
     --secondary-color: #f38b04;
-    --accent1-color: #DCDFE5;
+    --accent1-color: #97a7c4;
     --accent2-color: #6F7365;
 
     --heading-font: 'Open Sans', serif;
     --paragraph-font: 'Playfair Display', serif;
 
-    --nav-background-color: #FDFBFC;
-    --nav-link-color: #6F7365;
-    --nav-hover-link-color: #FDFBFC;
-    --nav-hover-background-color: #222b1a;
+    --nav-background-color: #d4def1;
+    --nav-link-color: #222b1a;
+    --nav-hover-link-color: #f38b04;
+    --nav-hover-background-color: #d4def1;
 }
 
 body {
@@ -64,6 +64,7 @@ nav a:hover {
 
 .hero {
     position: relative;
+    width: 960;
 }
 
 h1 {
@@ -72,6 +73,11 @@ h1 {
 
 article {
     position: absolute;
+    bottom: 25px;
+    left: 15px;
+    background: radial-gradient(#eee, #97a7c4);
+    padding: 0.65rem;
+    opacity: 0.9;
 }
 
 .hero img {
