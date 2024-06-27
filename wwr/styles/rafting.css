@@ -77,7 +77,6 @@ div article {
     position: absolute;
     top: 70px;
     left: 50%;
-    transform: translate(-50%);
     background-color: rgb(255, 183, 3, 0.70);
     width: 100%,
 }
