@@ -78,6 +78,13 @@ div h1 {
     color: var (--accent2-color);
 }
 
+div h2 {
+    position: absolute;
+    top: 70px;
+    left: 25%;
+    color: var (--accent2-color);
+}
+
 div article {
     position: absolute;
     bottom: 100px;
