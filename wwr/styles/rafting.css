@@ -5,3 +5,19 @@
     width: 100%;
     height: auto;
 }
+
+:root {
+    --primary-color: #222b1a;
+    --secondary-color: #dac3a4;
+    --accent1-color: #DCDFE5;
+    --accent2-color: #6F7365;
+
+    --heading-font: 'Open Sans', serif;
+    --paragraph-font: 'Playfair Display', serif;
+
+    --nav-background-color: #FDFBFC;
+    --nav-link-color: #6F7365;
+    --nav-hover-link-color: #FDFBFC;
+    --nav-hover-background-color: #222b1a;
+}
+
