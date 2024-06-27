@@ -66,6 +66,10 @@ div {
     position: relative;
 }
 
+.hero {
+	position: relative;
+}
+
 div h1 {
     position: absolute;
     top: 15px;
