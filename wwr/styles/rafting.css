@@ -57,27 +57,32 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-
-.div {
-    position: relative;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.hero {
-    position: relative;
-    width: 960;
+main {
+	max-width: 960px;
+	margin: 2rem auto;
+	font-family: Open Sans, Playfair, sans-serif;
+}
+div {
+    position: realive;
 }
 
-h1 {
+div h1 {
     position: absolute;
+    top: 70px;
+    left: 25%;
+    color: var (--accent2-color);
 }
 
-article {
+div article {
     position: absolute;
-    bottom: 25px;
-    left: 15px;
-    background: radial-gradient(#eee, #97a7c4);
-    padding: 0.65rem;
-    opacity: 0.9;
+    bottom: 100px;
+    background-color: rgb(255, 183, 3, 0.70);
+    width: 50%;
 }
 
 .hero img {
@@ -85,3 +90,10 @@ article {
     width: 100%;
     height: auto;
 }
+
+/* #article-image {
+    float: right;
+    padding: 1px;
+    width: 2px;
+    height: auto;
+} */
