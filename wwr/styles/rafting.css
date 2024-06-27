@@ -22,7 +22,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    max-width: 1000px;
     padding: 20px;
 }
 
@@ -77,7 +77,7 @@ div article {
     position: absolute;
     top: 70px;
     left: 50%;
-    background-color: rgb(255, 183, 3, 0.70);
+    background-color: rgba(255, 192, 3, 0.861);
     width: 100%,
 }
 
