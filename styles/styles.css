@@ -44,10 +44,21 @@ p {
     margin: 1rem;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
 aside {
     width: 20em;
-    text-align: center;
-    position: relative;
+    position: relativel
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
