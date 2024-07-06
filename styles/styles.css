@@ -73,9 +73,15 @@ header, .grid, footer {
     margin-top: 0 auto;
 }
 
+
 footer {
     border-top: 1px solid black;
     text-align: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 /* Class Selectors */
