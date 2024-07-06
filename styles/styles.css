@@ -53,6 +53,7 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    margin-left: 2.7rem;
 }
 
 aside p {
@@ -61,8 +62,8 @@ aside p {
 
 aside h2 {
     position: absolute;
-    top: 30px;
-    left: 80px;
+    top: 60px;
+    left: 120px;
 }
 
 header, .grid, footer {
