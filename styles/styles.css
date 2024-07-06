@@ -14,7 +14,7 @@ nav {
 nav a {
     color: #fff;
     display: block;
-    padding: 20px;
+    padding: .5rem;
     text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ main img {
 }
 
 p {
-    margin: 1rem;
+    margin: 0;
 }
 
 main {
