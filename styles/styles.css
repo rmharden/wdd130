@@ -19,7 +19,9 @@ nav a {
 }
 
 h1 {
+    margin: 1rem;
     color: steelblue;
+    border-bottom: solid steelblue 1px;
 }
 
 main img {
