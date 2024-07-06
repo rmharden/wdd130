@@ -12,12 +12,13 @@ nav {
 }
 
 nav a {
+    color: #fff;
     display: block;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
+    padding: 20px;
     text-decoration: none;
     /* font-size: 1.2rem;
     font-weight: 700; */
-    color: #fff;
 }
 
 h1 {
@@ -30,6 +31,7 @@ main img {
     float: right;
     width: 150px;
     height: auto;
+    margin-left: 1rem;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -60,6 +62,12 @@ aside p {
     text-align: left;
 }
 
+aside h2 {
+    position: absolute;
+    top: 56px;
+    left: 75px;
+}
+
 header, .grid, footer {
     max-width: 840px;
     margin-top: 0 auto;
@@ -78,9 +86,4 @@ footer {
     background-color: #eee;
     color: #000;
     list-style-position: inside;
-}
-aside h2 {
-    position: absolute;
-    top: 56px;
-    left: 122px;
 }
