@@ -143,7 +143,7 @@ nav a:hover {
 }
 
 .section h2 {
-    color: cornflowerblue;
+    color: rgba(229, 181, 9, 0.917);;
 }
 
 .gallery {
@@ -164,6 +164,7 @@ nav a:hover {
 
 figcaption {
     padding: 10px;
+    font-size: .7rem;
 }
 
 footer {
