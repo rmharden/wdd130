@@ -37,7 +37,7 @@
     grid-template-columns : auto auto;
     justify-content : space-around;
     padding : 10px;
-    background-color : #303d38;
+    background-color : var(--accent1-color );
     color : var(--secondary-color);
     }
     
@@ -46,7 +46,7 @@
     }
     
     nav {
-    background-color : #303d38;
+    background-color : var(--accent1-color );
     font-size : 1.2rem;
     display : flex;
     justify-content : space-around;
@@ -66,7 +66,7 @@
     
     nav a:hover {
     color : var(--nav-hover-link-color);
-    background-color : #222b1a;
+    background-color : var(--primary-color);
     }
     
     .hero {
@@ -165,12 +165,12 @@
     justify-content : space-evenly;
     align-items : center;
     padding : 20px;
-    background-color : #303d38;
+    background-color : var(--primary-color);
     color : var(--nav-link-color);
     }
     
     .sociallinks {
-    background-color : #303d38;
+    background-color : var(--primary-color);
     display : flex;
     justify-content : space-around;
     align-items : center;
