@@ -96,6 +96,7 @@
     top : 180px;
     background-color : var(--secondary-color);
     margin : 0 3rem 0 3rem;
+    opacity: 95%;
     }
     
     .hero article img {
