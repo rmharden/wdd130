@@ -79,7 +79,8 @@
     text-align: center;
     width: 100%;
     color: var(--primary-color);
-    background-color: rgb(169, 182, 202, 0.558);
+    background-color: var(--nav-link-color);
+    opacity: 75%;
     }
     
     .hero img {
@@ -165,7 +166,7 @@
     align-items : center;
     padding : 20px;
     background-color : #303d38;
-    color : #a9b6ca;
+    color : var(--nav-link-color);
     }
     
     .sociallinks {
