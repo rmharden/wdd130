@@ -14,8 +14,10 @@
     --secondary-color : #f3cb04;
     --accent1-color : #303d38;
     --accent2-color : #000000;
+
     --heading-font : 'Open Sans',serif;
     --paragraph-font : 'Playfair Display',serif;
+    
     --nav-background-color : #303d38;
     --nav-link-color : #a9b6ca;
     --nav-hover-link-color : #FDFBFC;
@@ -147,8 +149,8 @@
     .gallery img {
     display : flex;
     flex-direction : column;
-    align-content : space-around;
     align-items : center;
+    align-content : space-around;
     padding : 1px;
     width : auto;
     height : 150px;
@@ -161,10 +163,10 @@
     
     footer {
     display : grid;
-    grid-template-columns : auto auto;
     justify-content : space-evenly;
+    grid-template-columns : auto auto;
     align-items : center;
-    padding : 20px;
+    padding : 16px;
     background-color : var(--primary-color);
     color : var(--nav-link-color);
     }
@@ -172,6 +174,6 @@
     .sociallinks {
     background-color : var(--primary-color);
     display : flex;
-    justify-content : space-around;
     align-items : center;
+    justify-content : space-around;
     }
