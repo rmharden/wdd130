@@ -1,59 +1,63 @@
 * {
-margin : 0;
-padding : 0;
-box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-font-family : "Open Sans", sans-serif;
-font-size : 1rem;
-padding : 0.5em;
-margin : 0;
-background : white;
+    font: 1rem;
+    padding: 0.5em;
+    margin: 0;
 }
+
 header {
-margin : 0 auto;
-width : 650px;
+    margin: 0 auto;
+    width: 650px;
 }
+
 h1 {
-margin : 1rem;
-font-size : 1.5em;
-font-family : "Playfair Display", serif;
-color : #3c6e71;
-text-align : center;
+    margin: 1rem;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
 }
+
 form {
-position : relative;
-width : 100%;
-max-width : 500px;
-height : auto;
-margin : 0 auto;
-padding : 1em;
-box-sizing : border-box;
-background-color : #eaf4f4;
-border-radius : 10px;
-display : grid;
-gap : 20px;
-grid-template-columns : auto;
-grid-template-rows : auto;
-align-items : center;
-justify-content : center;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: lightcyan;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
 }
+
 legend {
-font-size : 1.3em;
-font-family : "Playfair Display", monospace;
-color : black;
+    font-size:  1.3em;
+    color: black;
 }
+
 button {
-color : white;
-background-color : #3c6e71;
-width : fit-content;
-padding : 10px;
-justify-self : center;
-border-radius : 5px;
+    color: white;
+    background-color: cadetblue;
+    width: fit-content;
+    padding: 10px;
+    justify-self: center;
+    border-radius: 5px;
 }
+
 button:hover {
-background-color : #d9d9d9;
+    background-color: darkorange;
 }
+
 footer {
-text-align : center;
+    text-align: center;
 }
