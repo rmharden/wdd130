@@ -20,7 +20,7 @@ header {
 
 h1 {
     margin: 1rem;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: navy;
     text-align: center;
 }
@@ -54,7 +54,7 @@ label, input, button, select, textarea {
 }
 
 label {
-    text-align: left;
+    text-align: right;
     padding-right: 1rem;
 }
 
@@ -77,6 +77,8 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    justify-self: center;
+    width: fit-content;
 }
 
 button:hover {
@@ -109,4 +111,8 @@ footer {
 
 .column3 {
     margin: 0.5rem 0;
+}
+
+.column3 label {
+    text-align: center;
 }
