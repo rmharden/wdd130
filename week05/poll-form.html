@@ -25,7 +25,7 @@
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
-                <div class="form-item coumn1">
+                <div class="form-item column1">
                     <label for="browser">What is your favorite internet browser?</label>
                     <select id="browser" name="browser">
                         <option value="chrome">Chrome</option>
@@ -35,12 +35,14 @@
                         <option value="other">Other</option>
                     </select>
                 </div>
-                <div class="form-item coumn1">
+                <div class="form-item column1">
                     <label for="pet">Do you have a household pet?</label>
                     <input type="checkbox" id="pet" name="pet">
                 </div>
-                <label for="feedback">List the places you have lived:</label>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="Salt Lake City, Utah, Colorado Springs, Colorado, San Antonio, Texas"></textarea>
+                <div class="form-item column3">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Salt Lake City, Utah, Colorado Springs, Colorado, San Antonio, Texas"></textarea>
+                </div>
             </fieldset>
             <button type="submit">Submit Poll</button>
         </form>
