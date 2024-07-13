@@ -1,0 +1,59 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+}
+body {
+font-family : "Open Sans", sans-serif;
+font-size : 1rem;
+padding : 0.5em;
+margin : 0;
+background : white;
+}
+header {
+margin : 0 auto;
+width : 650px;
+}
+h1 {
+margin : 1rem;
+font-size : 1.5em;
+font-family : "Playfair Display", serif;
+color : #3c6e71;
+text-align : center;
+}
+form {
+position : relative;
+width : 100%;
+max-width : 500px;
+height : auto;
+margin : 0 auto;
+padding : 1em;
+box-sizing : border-box;
+background-color : #eaf4f4;
+border-radius : 10px;
+display : grid;
+gap : 20px;
+grid-template-columns : auto;
+grid-template-rows : auto;
+align-items : center;
+justify-content : center;
+}
+legend {
+font-size : 1.3em;
+font-family : "Playfair Display", monospace;
+color : black;
+}
+button {
+color : white;
+background-color : #3c6e71;
+width : fit-content;
+padding : 10px;
+justify-self : center;
+border-radius : 5px;
+}
+button:hover {
+background-color : #d9d9d9;
+}
+footer {
+text-align : center;
+}
