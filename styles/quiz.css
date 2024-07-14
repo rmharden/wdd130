@@ -40,7 +40,6 @@ form {
     gap: 10px;
     width: 450px;
     margin: 0 auto;
-    border: 1 px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: lightcyan;
     display: grid;
