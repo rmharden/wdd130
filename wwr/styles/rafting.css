@@ -10,7 +10,7 @@ body {
 }
     
 :root {
-    --primary-color : #222b1a;
+    --primary-color : #5a7145;
     --secondary-color : #f3cb04;
     --accent1-color : #303d38;
     --accent2-color : #000000;
@@ -164,8 +164,8 @@ figcaption {
 footer {
     display : grid;
     justify-content : space-evenly;
-    grid-template-columns : auto auto;
     align-items : center;
+    grid-template-columns : auto auto;
     padding : 16px;
     background-color : var(--primary-color);
     color : var(--nav-link-color);
