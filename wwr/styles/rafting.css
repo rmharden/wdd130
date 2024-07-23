@@ -160,7 +160,39 @@ figcaption {
     padding : 10px;
     font-size : 0.7rem;
 }
-    
+
+form {
+    margin : auto;
+    display : grid;
+    width : 100%;
+}
+
+fieldset {
+    margin-top : 1em;
+    width : 450px;
+}
+
+.form {
+    margin-top : 0.5em;
+}
+
+textarea {
+    width : 100%;
+}
+
+button {
+    justify-self : center;
+    color : white;
+    background-color : #f3cb04;
+    width : fit-content;
+    padding : 10px;
+    border-radius : 5px;
+}
+
+button:hover {
+    background-color : darkorange;
+}
+
 footer {
     display : grid;
     justify-content : space-evenly;
