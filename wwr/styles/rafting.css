@@ -115,6 +115,7 @@ nav a:hover {
     justify-content: space-evenly;
     justify-items: center;
     align-content: center;
+    padding: 15px;
 }
     
 .history-section {
@@ -214,6 +215,17 @@ button {
 button:hover {
     background-color: darkorange;
 }
+
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+    width: 100%;
+}
+
+.section1 table th {
+    background-color: #a9b6ca;
+}
+
 
 footer {
     display: grid;
