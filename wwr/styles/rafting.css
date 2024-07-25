@@ -190,6 +190,11 @@ form {
     width: 100%;
 }
 
+form2 {
+    margin: auto;
+    display: grid;
+}
+
 fieldset {
     margin-top: 1em;
     width: 450px;
@@ -226,6 +231,24 @@ table, th, td {
     background-color: #a9b6ca;
 }
 
+.homepage h2 {
+    padding: 10px;
+}
+
+adventure {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.adventure h2 {
+    align-self: center;
+    padding: 10px;
+}
 
 footer {
     display: grid;
@@ -234,7 +257,7 @@ footer {
     grid-template-columns : auto auto;
     padding: 16px;
     background-color: var(--primary-color);
-    color: var(--nav-link-color);
+    color: var(--nav-link-color);   
 }
     
 .sociallinks {
