@@ -202,7 +202,7 @@ figcaption {
 /* Beginning of form */
 form {
     width: 350px;
-    margin: 1 auto;
+    margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
