@@ -261,24 +261,7 @@ form3 {
     width: 100%;
 }
 
-form2 {
-    margin: auto;
-    display: grid;
-}
-
-fieldset3 {
-    margin-top: 1em;
-    width: 450px;
-}
-
-.form3 {
-    margin-top: 0.5em;
-} 
-
-textarea3 {
-    width: 100%;
-}
-
+/* Both Home and Contact Us uses these buttons  */
 button {
     justify-self: center;
     color: rgb(0, 0, 0);
