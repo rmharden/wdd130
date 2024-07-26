@@ -189,7 +189,7 @@ figcaption {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
-    align-items: left;
+    align-items: center;  
     justify-content: space-around;
     padding: 15px;
 }
