@@ -258,6 +258,17 @@ button:hover {
     position: relative;
 }
 
+.hero2 p {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    width: 75%;
+    color: var(--primary-color);
+    background-color: #a9b6ca;
+    opacity: 75%;
+    font-size: 13px;
+}
+
 .hero2 h1 {
     position: absolute;
     top: 15%;
