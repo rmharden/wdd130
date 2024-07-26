@@ -255,29 +255,29 @@ table, th, td {
 
 /* Beginning of Home Page (index.html) */
 
-/* form {
+form3 {
     margin: auto;
     display: grid;
     width: 100%;
-} */
+}
 
-/* form2 {
+form2 {
     margin: auto;
     display: grid;
-} */
+}
 
-/* fieldset {
+fieldset3 {
     margin-top: 1em;
     width: 450px;
-} */
+}
 
-/* .form {
+.form3 {
     margin-top: 0.5em;
-} */
+} 
 
-/* textarea {
+textarea3 {
     width: 100%;
-} */
+}
 
 button {
     justify-self: center;
